@@ -1,0 +1,15 @@
+tuan_quynh_api:
+    resource: "@TuanQuynhApiBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+tuan_quynh_builder:
+    resource: "@TuanQuynhBuilderBundle/Controller/"
+    type:     annotation
+    prefix:   /builder/
+
+tuan_quynh_home:
+    resource: "@TuanQuynhHomeBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
